@@ -11,4 +11,32 @@ body{
     justify-content: center;
     margin: 0;
 }
+ nav{
+    display: flex;
+    background-color: bisque;
+    width: 100%;
+    align-items: baseline;
+    justify-content: space-between;
 
+    
+}
+nav ul{
+    justify-content: flex-end;
+    display: flex;
+    
+ }
+
+ nav ul li{
+    margin: 10px;
+
+ }
+ 
+#logo{
+    justify-content: flex-start;
+    margin: 10px;
+ }
+
+
+ nav button{
+    justify-content: flex-end;
+ }
