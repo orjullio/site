@@ -15,12 +15,10 @@ body{
 }
  nav{
     display: flex;
-    background-color: bisque;
-    width: 100%;
+    background-color: #000;
+    width: 100vw;
     align-items: baseline;
     justify-content: space-between;
-
-    
 }
 nav ul{
     justify-content: flex-end;
@@ -32,6 +30,9 @@ nav ul{
     margin: 10px;
 
  }
+nav a {
+    color: #fff;
+}
 
 #logo{
     justify-content: flex-start;
@@ -41,4 +42,19 @@ nav ul{
 
  nav button{
     justify-content: flex-end;
+ }
+
+ main{
+    height: 85vh;
+    width: 100vw;
+    background-color: #000;
+    color: #fff;
+ }
+
+
+
+ footer{
+    background-color: #000;
+    width: 100%;
+    color: #fff;
  }
